@@ -9,7 +9,9 @@
 int main() {
 
 	Base64 appln;
-	//appln.encode("D:\\Projects\\Base64\\Ascii.txt", "D:\\Projects\\Base64\\Ascii_out.txt");
+	
+	//Adding comments to test Git
+	appln.encode("D:\\Projects\\Base64\\Ascii.txt", "D:\\Projects\\Base64\\Ascii_out.txt");
 	appln.decode("D:\\Projects\\Base64\\Ascii.txt", "D:\\Projects\\Base64\\Ascii_out.txt");
 	return 0;
 }
